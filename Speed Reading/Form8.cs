@@ -22,20 +22,20 @@ namespace Speed_Reading
             InitializeComponent();
         }
 
-        private void Btn_Play1_Click(object sender, EventArgs e)
+        private void Btn_Play_Click(object sender, EventArgs e)
         {
             this.timer1.Enabled = true;
-            Btn_Play1.Enabled = false;
+            Btn_Play.Enabled = false;
         }
 
-        private void Btn_Pause1_Click(object sender, EventArgs e)
+        private void Btn_Pause_Click(object sender, EventArgs e)
         {
             Form8 form8sec = new Form8();
             form8sec.Show();
             this.Hide();
         }
 
-        private void Btn_Next1_Click(object sender, EventArgs e)
+        private void Btn_Next_Click(object sender, EventArgs e)
         {
             Form9 form9sec = new Form9();
             form9sec.Show();
@@ -43,7 +43,7 @@ namespace Speed_Reading
 
         }
 
-        private void Btn_Back1_Click(object sender, EventArgs e)
+        private void Btn_Back_Click(object sender, EventArgs e)
         {
             Form7 form7sec = new Form7();
             form7sec.Show();
@@ -51,14 +51,7 @@ namespace Speed_Reading
         }
 
 
-        private void Btn_Next_Click(object sender, EventArgs e)
-        {
-            
-        }
-        private void Btn_Pause_Click(object sender, EventArgs e)
-        {
-           
-        }
+     
         private void Form7_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Right)
@@ -75,10 +68,7 @@ namespace Speed_Reading
             }
         }
 
-        private void Btn_Back_Click(object sender, EventArgs e)
-        {
-            
-        }
+        
 
         private void Btn_Next_MouseHover(object sender, EventArgs e)
         {
@@ -121,11 +111,7 @@ namespace Speed_Reading
 
         
 
-        private void Btn_Play_Click(object sender, EventArgs e)
-        {
-            
-        }
-
+      
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -133,7 +119,7 @@ namespace Speed_Reading
             if (this.pictureBox6.Left > 950)
             {
                 this.timer1.Enabled = false;
-                Btn_Play1.Enabled = true;
+                Btn_Play.Enabled = true;
 
             }
 

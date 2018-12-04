@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DevExpress.XtraEditors;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,7 +35,7 @@ namespace Speed_Reading
                 form10sec.Show();
                 this.Hide();
             }
-        
+
         }
         private void Btn_Pause_Click(object sender, EventArgs e)
         {
@@ -86,7 +87,8 @@ namespace Speed_Reading
         {
             Timer timer = new Timer();
             timer.Interval = delay;
-            timer.Tick += (s, e) => {
+            timer.Tick += (s, e) =>
+            {
                 action();
                 timer.Stop();
             };
@@ -94,9 +96,9 @@ namespace Speed_Reading
         }
         private void timer1_Tick(object sender, EventArgs e)
         {
-            
+
         }
-        
+
         private void Btn_Play_Click(object sender, EventArgs e)
         {
             Btn_Play.Enabled = false;
@@ -124,6 +126,72 @@ namespace Speed_Reading
             Form9 form9sec = new Form9();
             form9sec.Show();
             this.Hide();
+        }
+
+        private void toolStripMenuItem13_Click(object sender, EventArgs e)
+        {
+            Form13 form13sec = new Form13();
+            form13sec.Show();
+            this.Hide();
+        }
+
+        void SetComponents()
+        {
+            foreach (Control item in Controls)
+            {
+                //if (item is Button)
+                //{
+                //    item.Width = Size.Width / 4 - 16;
+                //    item.Height = Size.Height / 4;
+                //    item.Font = new Font(Font.FontFamily, item.Height / 5);
+                //}
+
+                //button1.Left = 10;
+                //button1.Top = 10;
+
+                //button2.Left = button1.Right + 10;
+                //button2.Top = button1.Top;
+
+                if (item is SimpleButton)
+                {
+                    //item.Width = Size.Width / 4 - 16;
+                    //item.Height = Size.Height / 4;
+                    //item.Font = new Font(Font.FontFamily, item.Height / 5);
+                    item.Top = Size.Height - 120;
+                    //item.Left = 10;
+                }
+
+
+                //button1.Left = 10;
+                //button1.Top = 10;
+
+                //button2.Left = button1.Right + 10;
+                //button2.Top = button1.Top;
+            }
+        }
+
+        private void Btn_Back_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_SizeChanged(object sender, EventArgs e)
+        {
+            SetComponents();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            foreach (Control item in Controls)
+            {
+                label4.Left = Size.Width - 1300; 
+                if (item is SimpleButton)
+                {
+                    item.Top = Size.Height - 120;
+                }
+            }
+
+
         }
     }
 }

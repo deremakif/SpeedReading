@@ -70,10 +70,10 @@
             this.toolStripMenuItem19 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem20 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem21 = new System.Windows.Forms.ToolStripMenuItem();
-            this.Btn_Play1 = new DevExpress.XtraEditors.SimpleButton();
-            this.Btn_Pause1 = new DevExpress.XtraEditors.SimpleButton();
-            this.Btn_Next1 = new DevExpress.XtraEditors.SimpleButton();
-            this.Btn_Back1 = new DevExpress.XtraEditors.SimpleButton();
+            this.Btn_Play = new DevExpress.XtraEditors.SimpleButton();
+            this.Btn_Pause = new DevExpress.XtraEditors.SimpleButton();
+            this.Btn_Next = new DevExpress.XtraEditors.SimpleButton();
+            this.Btn_Back = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -426,51 +426,51 @@
             this.toolStripMenuItem21.Size = new System.Drawing.Size(60, 25);
             this.toolStripMenuItem21.Text = "21";
             // 
-            // Btn_Play1
+            // Btn_Play
             // 
-            this.Btn_Play1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.Btn_Play1.Location = new System.Drawing.Point(627, 646);
-            this.Btn_Play1.Name = "Btn_Play1";
-            this.Btn_Play1.Size = new System.Drawing.Size(47, 38);
-            this.Btn_Play1.TabIndex = 61;
-            this.Btn_Play1.Click += new System.EventHandler(this.Btn_Play1_Click);
+            this.Btn_Play.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Play1.ImageOptions.Image")));
+            this.Btn_Play.Location = new System.Drawing.Point(627, 646);
+            this.Btn_Play.Name = "Btn_Play";
+            this.Btn_Play.Size = new System.Drawing.Size(47, 38);
+            this.Btn_Play.TabIndex = 61;
+            this.Btn_Play.Click += new System.EventHandler(this.Btn_Play_Click);
             // 
-            // Btn_Pause1
+            // Btn_Pause
             // 
-            this.Btn_Pause1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
-            this.Btn_Pause1.Location = new System.Drawing.Point(672, 646);
-            this.Btn_Pause1.Name = "Btn_Pause1";
-            this.Btn_Pause1.Size = new System.Drawing.Size(47, 38);
-            this.Btn_Pause1.TabIndex = 62;
-            this.Btn_Pause1.Click += new System.EventHandler(this.Btn_Pause1_Click);
+            this.Btn_Pause.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Pause1.ImageOptions.Image")));
+            this.Btn_Pause.Location = new System.Drawing.Point(672, 646);
+            this.Btn_Pause.Name = "Btn_Pause";
+            this.Btn_Pause.Size = new System.Drawing.Size(47, 38);
+            this.Btn_Pause.TabIndex = 62;
+            this.Btn_Pause.Click += new System.EventHandler(this.Btn_Pause_Click);
             // 
-            // Btn_Next1
+            // Btn_Next
             // 
-            this.Btn_Next1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
-            this.Btn_Next1.Location = new System.Drawing.Point(717, 646);
-            this.Btn_Next1.Name = "Btn_Next1";
-            this.Btn_Next1.Size = new System.Drawing.Size(47, 38);
-            this.Btn_Next1.TabIndex = 63;
-            this.Btn_Next1.Click += new System.EventHandler(this.Btn_Next1_Click);
+            this.Btn_Next.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Next1.ImageOptions.Image")));
+            this.Btn_Next.Location = new System.Drawing.Point(717, 646);
+            this.Btn_Next.Name = "Btn_Next";
+            this.Btn_Next.Size = new System.Drawing.Size(47, 38);
+            this.Btn_Next.TabIndex = 63;
+            this.Btn_Next.Click += new System.EventHandler(this.Btn_Next_Click);
             // 
-            // Btn_Back1
+            // Btn_Back
             // 
-            this.Btn_Back1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton4.ImageOptions.Image")));
-            this.Btn_Back1.Location = new System.Drawing.Point(582, 646);
-            this.Btn_Back1.Name = "Btn_Back1";
-            this.Btn_Back1.Size = new System.Drawing.Size(47, 38);
-            this.Btn_Back1.TabIndex = 64;
-            this.Btn_Back1.Click += new System.EventHandler(this.Btn_Back1_Click);
+            this.Btn_Back.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Back1.ImageOptions.Image")));
+            this.Btn_Back.Location = new System.Drawing.Point(582, 646);
+            this.Btn_Back.Name = "Btn_Back";
+            this.Btn_Back.Size = new System.Drawing.Size(47, 38);
+            this.Btn_Back.TabIndex = 64;
+            this.Btn_Back.Click += new System.EventHandler(this.Btn_Back_Click);
             // 
             // Form8
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1370, 749);
-            this.Controls.Add(this.Btn_Back1);
-            this.Controls.Add(this.Btn_Next1);
-            this.Controls.Add(this.Btn_Pause1);
-            this.Controls.Add(this.Btn_Play1);
+            this.Controls.Add(this.Btn_Back);
+            this.Controls.Add(this.Btn_Next);
+            this.Controls.Add(this.Btn_Pause);
+            this.Controls.Add(this.Btn_Play);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
@@ -540,9 +540,9 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem19;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem20;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem21;
-        private DevExpress.XtraEditors.SimpleButton Btn_Play1;
-        private DevExpress.XtraEditors.SimpleButton Btn_Pause1;
-        private DevExpress.XtraEditors.SimpleButton Btn_Next1;
-        private DevExpress.XtraEditors.SimpleButton Btn_Back1;
+        private DevExpress.XtraEditors.SimpleButton Btn_Play;
+        private DevExpress.XtraEditors.SimpleButton Btn_Pause;
+        private DevExpress.XtraEditors.SimpleButton Btn_Next;
+        private DevExpress.XtraEditors.SimpleButton Btn_Back;
     }
 }

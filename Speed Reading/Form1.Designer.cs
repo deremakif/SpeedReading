@@ -30,10 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.Btn_Next = new System.Windows.Forms.PictureBox();
-            this.Btn_Pause = new System.Windows.Forms.PictureBox();
-            this.Btn_Play = new System.Windows.Forms.PictureBox();
-            this.Btn_Back = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -71,65 +67,12 @@
             this.toolStripMenuItem19 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem20 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem21 = new System.Windows.Forms.ToolStripMenuItem();
-            ((System.ComponentModel.ISupportInitialize)(this.Btn_Next)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Btn_Pause)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Btn_Play)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Btn_Back)).BeginInit();
+            this.Btn_Back = new DevExpress.XtraEditors.SimpleButton();
+            this.Btn_Next = new DevExpress.XtraEditors.SimpleButton();
+            this.Btn_Pause = new DevExpress.XtraEditors.SimpleButton();
+            this.Btn_Play = new DevExpress.XtraEditors.SimpleButton();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // Btn_Next
-            // 
-            this.Btn_Next.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Next.Image")));
-            this.Btn_Next.Location = new System.Drawing.Point(738, 678);
-            this.Btn_Next.Name = "Btn_Next";
-            this.Btn_Next.Size = new System.Drawing.Size(39, 34);
-            this.Btn_Next.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Btn_Next.TabIndex = 7;
-            this.Btn_Next.TabStop = false;
-            this.Btn_Next.Click += new System.EventHandler(this.Btn_Next_Click);
-            this.Btn_Next.MouseLeave += new System.EventHandler(this.Btn_Next_MouseLeave);
-            this.Btn_Next.MouseHover += new System.EventHandler(this.Btn_Next_MouseHover);
-            // 
-            // Btn_Pause
-            // 
-            this.Btn_Pause.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Pause.Image")));
-            this.Btn_Pause.Location = new System.Drawing.Point(693, 678);
-            this.Btn_Pause.Name = "Btn_Pause";
-            this.Btn_Pause.Size = new System.Drawing.Size(39, 34);
-            this.Btn_Pause.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Btn_Pause.TabIndex = 6;
-            this.Btn_Pause.TabStop = false;
-            this.Btn_Pause.Click += new System.EventHandler(this.Btn_Pause_Click);
-            this.Btn_Pause.MouseLeave += new System.EventHandler(this.Btn_Pause_MouseLeave);
-            this.Btn_Pause.MouseHover += new System.EventHandler(this.Btn_Pause_MouseHover);
-            // 
-            // Btn_Play
-            // 
-            this.Btn_Play.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Play.Image")));
-            this.Btn_Play.Location = new System.Drawing.Point(648, 678);
-            this.Btn_Play.Name = "Btn_Play";
-            this.Btn_Play.Size = new System.Drawing.Size(39, 34);
-            this.Btn_Play.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Btn_Play.TabIndex = 5;
-            this.Btn_Play.TabStop = false;
-            this.Btn_Play.Click += new System.EventHandler(this.Btn_Play_Click);
-            this.Btn_Play.MouseLeave += new System.EventHandler(this.Btn_Play_MouseLeave);
-            this.Btn_Play.MouseHover += new System.EventHandler(this.Btn_Play_MouseHover);
-            // 
-            // Btn_Back
-            // 
-            this.Btn_Back.Enabled = false;
-            this.Btn_Back.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Back.Image")));
-            this.Btn_Back.Location = new System.Drawing.Point(603, 678);
-            this.Btn_Back.Name = "Btn_Back";
-            this.Btn_Back.Size = new System.Drawing.Size(39, 34);
-            this.Btn_Back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Btn_Back.TabIndex = 4;
-            this.Btn_Back.TabStop = false;
-            this.Btn_Back.Visible = false;
-            this.Btn_Back.MouseLeave += new System.EventHandler(this.Btn_Back_MouseLeave);
-            this.Btn_Back.MouseHover += new System.EventHandler(this.Btn_Back_MouseHover);
             // 
             // timer1
             // 
@@ -389,6 +332,7 @@
             this.toolStripMenuItem13.Name = "toolStripMenuItem13";
             this.toolStripMenuItem13.Size = new System.Drawing.Size(60, 25);
             this.toolStripMenuItem13.Text = "13";
+            this.toolStripMenuItem13.Click += new System.EventHandler(this.toolStripMenuItem13_Click);
             // 
             // toolStripMenuItem14
             // 
@@ -446,11 +390,52 @@
             this.toolStripMenuItem21.Size = new System.Drawing.Size(60, 25);
             this.toolStripMenuItem21.Text = "21";
             // 
+            // Btn_Back
+            // 
+            this.Btn_Back.Enabled = false;
+            this.Btn_Back.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.Btn_Back.Location = new System.Drawing.Point(315, 678);
+            this.Btn_Back.Name = "Btn_Back";
+            this.Btn_Back.Size = new System.Drawing.Size(47, 38);
+            this.Btn_Back.TabIndex = 72;
+            this.Btn_Back.Click += new System.EventHandler(this.Btn_Back_Click);
+            // 
+            // Btn_Next
+            // 
+            this.Btn_Next.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
+            this.Btn_Next.Location = new System.Drawing.Point(450, 678);
+            this.Btn_Next.Name = "Btn_Next";
+            this.Btn_Next.Size = new System.Drawing.Size(47, 38);
+            this.Btn_Next.TabIndex = 71;
+            this.Btn_Next.Click += new System.EventHandler(this.Btn_Next_Click);
+            // 
+            // Btn_Pause
+            // 
+            this.Btn_Pause.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
+            this.Btn_Pause.Location = new System.Drawing.Point(405, 678);
+            this.Btn_Pause.Name = "Btn_Pause";
+            this.Btn_Pause.Size = new System.Drawing.Size(47, 38);
+            this.Btn_Pause.TabIndex = 70;
+            this.Btn_Pause.Click += new System.EventHandler(this.Btn_Pause_Click);
+            // 
+            // Btn_Play
+            // 
+            this.Btn_Play.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton4.ImageOptions.Image")));
+            this.Btn_Play.Location = new System.Drawing.Point(360, 678);
+            this.Btn_Play.Name = "Btn_Play";
+            this.Btn_Play.Size = new System.Drawing.Size(47, 38);
+            this.Btn_Play.TabIndex = 69;
+            this.Btn_Play.Click += new System.EventHandler(this.Btn_Play_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.Btn_Back);
+            this.Controls.Add(this.Btn_Next);
+            this.Controls.Add(this.Btn_Pause);
+            this.Controls.Add(this.Btn_Play);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label5);
@@ -460,20 +445,12 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.Btn_Next);
-            this.Controls.Add(this.Btn_Pause);
-            this.Controls.Add(this.Btn_Play);
-            this.Controls.Add(this.Btn_Back);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.SizeChanged += new System.EventHandler(this.Form1_SizeChanged);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
-            ((System.ComponentModel.ISupportInitialize)(this.Btn_Next)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Btn_Pause)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Btn_Play)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Btn_Back)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -482,11 +459,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox Btn_Next;
-        private System.Windows.Forms.PictureBox Btn_Pause;
-        private System.Windows.Forms.PictureBox Btn_Play;
-        private System.Windows.Forms.PictureBox Btn_Back;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -524,6 +496,10 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem19;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem20;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem21;
+        private DevExpress.XtraEditors.SimpleButton Btn_Back;
+        private DevExpress.XtraEditors.SimpleButton Btn_Next;
+        private DevExpress.XtraEditors.SimpleButton Btn_Pause;
+        private DevExpress.XtraEditors.SimpleButton Btn_Play;
     }
 }
 
