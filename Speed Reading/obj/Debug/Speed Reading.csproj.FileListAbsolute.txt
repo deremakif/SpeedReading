@@ -1,0 +1,67 @@
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\Speed Reading.exe.config
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\Speed Reading.exe
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\Speed Reading.pdb
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed Reading.csprojAssemblyReference.cache
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed_Reading.Form1.resources
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed_Reading.Form10.resources
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed_Reading.Form11.resources
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed_Reading.Form12.resources
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed_Reading.Form13.resources
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed_Reading.Form14.resources
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed_Reading.Form15.resources
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed_Reading.Form16.resources
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed_Reading.Form17.resources
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed_Reading.Form18.resources
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed_Reading.Form19.resources
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed_Reading.Form2.resources
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed_Reading.Form20.resources
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed_Reading.Form21.resources
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed_Reading.Form3.resources
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed_Reading.Form4.resources
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed_Reading.Form5.resources
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed_Reading.Form6.resources
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed_Reading.Form7.resources
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed_Reading.Form8.resources
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed_Reading.Form9.resources
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed_Reading.Properties.Resources.resources
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed Reading.csproj.GenerateResource.cache
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed Reading.csproj.CoreCompileInputs.cache
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed Reading.exe
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed Reading.pdb
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\DevExpress.Data.v18.1.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\DevExpress.Printing.v18.1.Core.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\DevExpress.Sparkline.v18.1.Core.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\DevExpress.Utils.v18.1.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\DevExpress.XtraEditors.v18.1.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\DevExpress.Pdf.v18.1.Core.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\DevExpress.Data.v18.1.xml
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\DevExpress.Printing.v18.1.Core.xml
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\DevExpress.Sparkline.v18.1.Core.xml
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\DevExpress.Utils.v18.1.xml
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\DevExpress.XtraEditors.v18.1.xml
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\DevExpress.Pdf.v18.1.Core.xml
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\de\DevExpress.Data.v18.1.resources.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\es\DevExpress.Data.v18.1.resources.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\ja\DevExpress.Data.v18.1.resources.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\ru\DevExpress.Data.v18.1.resources.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\de\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\es\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\ja\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\ru\DevExpress.Printing.v18.1.Core.resources.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\de\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\es\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\ja\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\ru\DevExpress.Sparkline.v18.1.Core.resources.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\de\DevExpress.Utils.v18.1.resources.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\es\DevExpress.Utils.v18.1.resources.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\ja\DevExpress.Utils.v18.1.resources.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\ru\DevExpress.Utils.v18.1.resources.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\de\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\es\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\ja\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\ru\DevExpress.XtraEditors.v18.1.resources.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\de\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\es\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\ja\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\bin\Debug\ru\DevExpress.Pdf.v18.1.Core.resources.dll
+C:\Users\mehmet akif\Desktop\Speed Reading\Speed Reading\Speed Reading\obj\Debug\Speed Reading.csproj.CopyComplete
