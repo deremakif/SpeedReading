@@ -38,7 +38,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem23 = new System.Windows.Forms.ToolStripMenuItem();
@@ -115,11 +114,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(166, 29);
+            this.label4.Location = new System.Drawing.Point(109, 43);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(751, 39);
+            this.label4.Size = new System.Drawing.Size(831, 39);
             this.label4.TabIndex = 11;
-            this.label4.Text = "Hızlı Okuma Teknikleri Eğitimine Hoşgeldiniz";
+            this.label4.Text = "        Hızlı Okuma Teknikleri Eğitimine Hoşgeldiniz";
             // 
             // label6
             // 
@@ -149,21 +148,11 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.Location = new System.Drawing.Point(110, 365);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(699, 31);
+            this.label5.Size = new System.Drawing.Size(1132, 31);
             this.label5.TabIndex = 15;
-            this.label5.Text = "Bu çalışmalara devam edildikçe hızınızın yanı sıra anlama";
+            this.label5.Text = "Bu çalışmalara devam edildikçe hızınızın yanı sıra anlama ve kavrama düzeyiniz de" +
+    " artacaktır.";
             this.label5.Visible = false;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(110, 395);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(440, 31);
-            this.label8.TabIndex = 16;
-            this.label8.Text = "ve kavrama düzeyiniz de artacaktır.";
-            this.label8.Visible = false;
             // 
             // menuStrip1
             // 
@@ -192,7 +181,7 @@
             this.toolStripMenuItem21});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1370, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1284, 24);
             this.menuStrip1.TabIndex = 41;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -260,6 +249,7 @@
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
             this.toolStripMenuItem3.Size = new System.Drawing.Size(60, 25);
             this.toolStripMenuItem3.Text = "3";
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
             // toolStripMenuItem4
             // 
@@ -274,6 +264,7 @@
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
             this.toolStripMenuItem5.Size = new System.Drawing.Size(60, 25);
             this.toolStripMenuItem5.Text = "5";
+            this.toolStripMenuItem5.Click += new System.EventHandler(this.toolStripMenuItem5_Click);
             // 
             // toolStripMenuItem6
             // 
@@ -393,8 +384,8 @@
             // Btn_Back
             // 
             this.Btn_Back.Enabled = false;
-            this.Btn_Back.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.Btn_Back.Location = new System.Drawing.Point(315, 678);
+            this.Btn_Back.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Back.ImageOptions.Image")));
+            this.Btn_Back.Location = new System.Drawing.Point(321, 615);
             this.Btn_Back.Name = "Btn_Back";
             this.Btn_Back.Size = new System.Drawing.Size(47, 38);
             this.Btn_Back.TabIndex = 72;
@@ -402,8 +393,8 @@
             // 
             // Btn_Next
             // 
-            this.Btn_Next.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
-            this.Btn_Next.Location = new System.Drawing.Point(450, 678);
+            this.Btn_Next.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Next.ImageOptions.Image")));
+            this.Btn_Next.Location = new System.Drawing.Point(456, 615);
             this.Btn_Next.Name = "Btn_Next";
             this.Btn_Next.Size = new System.Drawing.Size(47, 38);
             this.Btn_Next.TabIndex = 71;
@@ -411,8 +402,8 @@
             // 
             // Btn_Pause
             // 
-            this.Btn_Pause.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
-            this.Btn_Pause.Location = new System.Drawing.Point(405, 678);
+            this.Btn_Pause.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Pause.ImageOptions.Image")));
+            this.Btn_Pause.Location = new System.Drawing.Point(411, 615);
             this.Btn_Pause.Name = "Btn_Pause";
             this.Btn_Pause.Size = new System.Drawing.Size(47, 38);
             this.Btn_Pause.TabIndex = 70;
@@ -420,8 +411,8 @@
             // 
             // Btn_Play
             // 
-            this.Btn_Play.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton4.ImageOptions.Image")));
-            this.Btn_Play.Location = new System.Drawing.Point(360, 678);
+            this.Btn_Play.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Play.ImageOptions.Image")));
+            this.Btn_Play.Location = new System.Drawing.Point(366, 615);
             this.Btn_Play.Name = "Btn_Play";
             this.Btn_Play.Size = new System.Drawing.Size(47, 38);
             this.Btn_Play.TabIndex = 69;
@@ -431,13 +422,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.ClientSize = new System.Drawing.Size(1284, 661);
             this.Controls.Add(this.Btn_Back);
             this.Controls.Add(this.Btn_Next);
             this.Controls.Add(this.Btn_Pause);
             this.Controls.Add(this.Btn_Play);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -446,7 +436,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.SizeChanged += new System.EventHandler(this.Form1_SizeChanged);
@@ -467,7 +457,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem23;

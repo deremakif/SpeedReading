@@ -29,10 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5));
-            this.Btn_Next = new System.Windows.Forms.PictureBox();
-            this.Btn_Pause = new System.Windows.Forms.PictureBox();
-            this.Btn_Play = new System.Windows.Forms.PictureBox();
-            this.Btn_Back = new System.Windows.Forms.PictureBox();
             this.pBox1 = new System.Windows.Forms.PictureBox();
             this.pBox2 = new System.Windows.Forms.PictureBox();
             this.pBox3 = new System.Windows.Forms.PictureBox();
@@ -88,10 +84,10 @@
             this.toolStripMenuItem19 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem20 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem21 = new System.Windows.Forms.ToolStripMenuItem();
-            ((System.ComponentModel.ISupportInitialize)(this.Btn_Next)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Btn_Pause)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Btn_Play)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Btn_Back)).BeginInit();
+            this.Btn_Back = new DevExpress.XtraEditors.SimpleButton();
+            this.Btn_Next = new DevExpress.XtraEditors.SimpleButton();
+            this.Btn_Pause = new DevExpress.XtraEditors.SimpleButton();
+            this.Btn_Play = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.pBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBox3)).BeginInit();
@@ -114,58 +110,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // Btn_Next
-            // 
-            this.Btn_Next.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Next.Image")));
-            this.Btn_Next.Location = new System.Drawing.Point(736, 687);
-            this.Btn_Next.Name = "Btn_Next";
-            this.Btn_Next.Size = new System.Drawing.Size(39, 34);
-            this.Btn_Next.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Btn_Next.TabIndex = 7;
-            this.Btn_Next.TabStop = false;
-            this.Btn_Next.Click += new System.EventHandler(this.Btn_Next_Click);
-            this.Btn_Next.MouseLeave += new System.EventHandler(this.Btn_Next_MouseLeave);
-            this.Btn_Next.MouseHover += new System.EventHandler(this.Btn_Next_MouseHover);
-            // 
-            // Btn_Pause
-            // 
-            this.Btn_Pause.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Pause.Image")));
-            this.Btn_Pause.Location = new System.Drawing.Point(691, 687);
-            this.Btn_Pause.Name = "Btn_Pause";
-            this.Btn_Pause.Size = new System.Drawing.Size(39, 34);
-            this.Btn_Pause.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Btn_Pause.TabIndex = 6;
-            this.Btn_Pause.TabStop = false;
-            this.Btn_Pause.Click += new System.EventHandler(this.Btn_Pause_Click);
-            this.Btn_Pause.MouseLeave += new System.EventHandler(this.Btn_Pause_MouseLeave);
-            this.Btn_Pause.MouseHover += new System.EventHandler(this.Btn_Pause_MouseHover);
-            // 
-            // Btn_Play
-            // 
-            this.Btn_Play.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Play.Image")));
-            this.Btn_Play.Location = new System.Drawing.Point(646, 687);
-            this.Btn_Play.Name = "Btn_Play";
-            this.Btn_Play.Size = new System.Drawing.Size(39, 34);
-            this.Btn_Play.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Btn_Play.TabIndex = 5;
-            this.Btn_Play.TabStop = false;
-            this.Btn_Play.Click += new System.EventHandler(this.Btn_Play_Click);
-            this.Btn_Play.MouseLeave += new System.EventHandler(this.Btn_Play_MouseLeave);
-            this.Btn_Play.MouseHover += new System.EventHandler(this.Btn_Play_MouseHover);
-            // 
-            // Btn_Back
-            // 
-            this.Btn_Back.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Back.Image")));
-            this.Btn_Back.Location = new System.Drawing.Point(601, 687);
-            this.Btn_Back.Name = "Btn_Back";
-            this.Btn_Back.Size = new System.Drawing.Size(39, 34);
-            this.Btn_Back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Btn_Back.TabIndex = 4;
-            this.Btn_Back.TabStop = false;
-            this.Btn_Back.Click += new System.EventHandler(this.Btn_Back_Click);
-            this.Btn_Back.MouseLeave += new System.EventHandler(this.Btn_Back_MouseLeave);
-            this.Btn_Back.MouseHover += new System.EventHandler(this.Btn_Back_MouseHover);
             // 
             // pBox1
             // 
@@ -492,7 +436,7 @@
             this.toolStripMenuItem21});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1370, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1184, 24);
             this.menuStrip1.TabIndex = 40;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -510,20 +454,20 @@
             // toolStripMenuItem23
             // 
             this.toolStripMenuItem23.Name = "toolStripMenuItem23";
-            this.toolStripMenuItem23.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem23.Size = new System.Drawing.Size(80, 22);
             this.toolStripMenuItem23.Text = "1";
             this.toolStripMenuItem23.Click += new System.EventHandler(this.toolStripMenuItem23_Click);
             // 
             // toolStripMenuItem24
             // 
             this.toolStripMenuItem24.Name = "toolStripMenuItem24";
-            this.toolStripMenuItem24.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem24.Size = new System.Drawing.Size(80, 22);
             this.toolStripMenuItem24.Text = "2";
             // 
             // toolStripMenuItem25
             // 
             this.toolStripMenuItem25.Name = "toolStripMenuItem25";
-            this.toolStripMenuItem25.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem25.Size = new System.Drawing.Size(80, 22);
             this.toolStripMenuItem25.Text = "3";
             // 
             // toolStripMenuItem2
@@ -540,19 +484,19 @@
             // toolStripMenuItem26
             // 
             this.toolStripMenuItem26.Name = "toolStripMenuItem26";
-            this.toolStripMenuItem26.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem26.Size = new System.Drawing.Size(80, 22);
             this.toolStripMenuItem26.Text = "1";
             // 
             // toolStripMenuItem27
             // 
             this.toolStripMenuItem27.Name = "toolStripMenuItem27";
-            this.toolStripMenuItem27.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem27.Size = new System.Drawing.Size(80, 22);
             this.toolStripMenuItem27.Text = "2";
             // 
             // toolStripMenuItem28
             // 
             this.toolStripMenuItem28.Name = "toolStripMenuItem28";
-            this.toolStripMenuItem28.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem28.Size = new System.Drawing.Size(80, 22);
             this.toolStripMenuItem28.Text = "3";
             // 
             // toolStripMenuItem3
@@ -688,11 +632,51 @@
             this.toolStripMenuItem21.Size = new System.Drawing.Size(60, 25);
             this.toolStripMenuItem21.Text = "21";
             // 
+            // Btn_Back
+            // 
+            this.Btn_Back.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.Btn_Back.Location = new System.Drawing.Point(527, 593);
+            this.Btn_Back.Name = "Btn_Back";
+            this.Btn_Back.Size = new System.Drawing.Size(47, 38);
+            this.Btn_Back.TabIndex = 76;
+            this.Btn_Back.Click += new System.EventHandler(this.Btn_Back_Click);
+            // 
+            // Btn_Next
+            // 
+            this.Btn_Next.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
+            this.Btn_Next.Location = new System.Drawing.Point(662, 593);
+            this.Btn_Next.Name = "Btn_Next";
+            this.Btn_Next.Size = new System.Drawing.Size(47, 38);
+            this.Btn_Next.TabIndex = 75;
+            this.Btn_Next.Click += new System.EventHandler(this.Btn_Next_Click);
+            // 
+            // Btn_Pause
+            // 
+            this.Btn_Pause.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
+            this.Btn_Pause.Location = new System.Drawing.Point(617, 593);
+            this.Btn_Pause.Name = "Btn_Pause";
+            this.Btn_Pause.Size = new System.Drawing.Size(47, 38);
+            this.Btn_Pause.TabIndex = 74;
+            this.Btn_Pause.Click += new System.EventHandler(this.Btn_Pause_Click);
+            // 
+            // Btn_Play
+            // 
+            this.Btn_Play.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton4.ImageOptions.Image")));
+            this.Btn_Play.Location = new System.Drawing.Point(572, 593);
+            this.Btn_Play.Name = "Btn_Play";
+            this.Btn_Play.Size = new System.Drawing.Size(47, 38);
+            this.Btn_Play.TabIndex = 73;
+            this.Btn_Play.Click += new System.EventHandler(this.Btn_Play_Click);
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.ClientSize = new System.Drawing.Size(1184, 661);
+            this.Controls.Add(this.Btn_Back);
+            this.Controls.Add(this.Btn_Next);
+            this.Controls.Add(this.Btn_Pause);
+            this.Controls.Add(this.Btn_Play);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.radioButton6);
             this.Controls.Add(this.radioButton5);
@@ -720,21 +704,13 @@
             this.Controls.Add(this.pBox3);
             this.Controls.Add(this.pBox2);
             this.Controls.Add(this.pBox1);
-            this.Controls.Add(this.Btn_Next);
-            this.Controls.Add(this.Btn_Pause);
-            this.Controls.Add(this.Btn_Play);
-            this.Controls.Add(this.Btn_Back);
             this.Controls.Add(this.menuStrip1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MainMenuStrip = this.menuStrip1;
-            this.MaximizeBox = false;
             this.Name = "Form5";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form5";
-            ((System.ComponentModel.ISupportInitialize)(this.Btn_Next)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Btn_Pause)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Btn_Play)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Btn_Back)).EndInit();
+            this.Load += new System.EventHandler(this.Form5_Load);
+            this.SizeChanged += new System.EventHandler(this.Form5_SizeChanged);
             ((System.ComponentModel.ISupportInitialize)(this.pBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBox3)).EndInit();
@@ -763,11 +739,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox Btn_Next;
-        private System.Windows.Forms.PictureBox Btn_Pause;
-        private System.Windows.Forms.PictureBox Btn_Play;
-        private System.Windows.Forms.PictureBox Btn_Back;
         private System.Windows.Forms.PictureBox pBox1;
         private System.Windows.Forms.PictureBox pBox2;
         private System.Windows.Forms.PictureBox pBox3;
@@ -823,5 +794,9 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem19;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem20;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem21;
+        private DevExpress.XtraEditors.SimpleButton Btn_Back;
+        private DevExpress.XtraEditors.SimpleButton Btn_Next;
+        private DevExpress.XtraEditors.SimpleButton Btn_Pause;
+        private DevExpress.XtraEditors.SimpleButton Btn_Play;
     }
 }

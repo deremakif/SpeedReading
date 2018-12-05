@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DevExpress.XtraEditors;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,27 +24,27 @@ namespace Speed_Reading
 
         public void play()
         {
-            pictureBox1.Location = new Point(720, 131);
+            pictureBox1.Location = new Point(pictureBox5.Left+100, pictureBox5.Top+100);
             Application.DoEvents();
             Thread.Sleep(800);
             Application.DoEvents();
-            pictureBox1.Location = new Point(220, 200);
+            pictureBox1.Location = new Point(pictureBox5.Left + 800, pictureBox5.Top + 100);
             Application.DoEvents();
             Thread.Sleep(800);
             Application.DoEvents();
-            pictureBox1.Location = new Point(720, 200);        
+            pictureBox1.Location = new Point(pictureBox5.Left + 100, pictureBox5.Top + 200);        
             Application.DoEvents();
             Thread.Sleep(800);
             Application.DoEvents();
-            pictureBox1.Location = new Point(220, 270);
+            pictureBox1.Location = new Point(pictureBox5.Left + 800, pictureBox5.Top + 200);
             Application.DoEvents();
             Thread.Sleep(800);
             Application.DoEvents();
-            pictureBox1.Location = new Point(720, 270);
+            pictureBox1.Location = new Point(pictureBox5.Left + 100, pictureBox5.Top +300);
             Application.DoEvents();
             Thread.Sleep(800);
             Application.DoEvents();
-            pictureBox1.Location = new Point(220, 370);
+            pictureBox1.Location = new Point(pictureBox5.Left + 800, pictureBox5.Top + 300);
             Application.DoEvents();
             Thread.Sleep(800);
             Application.DoEvents();
@@ -55,13 +56,41 @@ namespace Speed_Reading
         {
             play();
 
-
-
         }
 
         private void Btn_Pause_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form9_Load(object sender, EventArgs e)
+        {
+            foreach (Control item in Controls)
+            {
+
+
+                pictureBox1.Left = pictureBox5.Left + 100;
+                pictureBox1.Top = pictureBox5.Top + 100;
+
+                if (item is SimpleButton)
+                {
+                    item.Top = Size.Height - 120;
+                }
+            }
+
+        }
+
+        private void Form9_SizeChanged(object sender, EventArgs e)
+        {
+            foreach (Control item in Controls)
+            {
+                pictureBox5.Left = Size.Width - 1300;
+                pictureBox1.Left = Size.Width - 1300;
+                if (item is SimpleButton)
+                {
+                    item.Top = Size.Height - 120;
+                }
+            }
         }
     }
 }

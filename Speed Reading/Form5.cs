@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DevExpress.XtraEditors;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -183,9 +184,10 @@ namespace Speed_Reading
         private void Btn_Pause_Click(object sender, EventArgs e)
         {
             Form5 form5sec = new Form5();
+            form5sec.Size = this.Size;
+            form5sec.Location = new Point(this.Location.X, this.Location.Y);
             form5sec.Show();
             this.Hide();
-
         }
 
 
@@ -209,8 +211,96 @@ namespace Speed_Reading
         private void toolStripMenuItem23_Click(object sender, EventArgs e)
         {
             Form1 form1sec = new Form1();
+            form1sec.Size = this.Size;
             form1sec.Show();
             this.Hide();
+        }
+
+        private void Form5_SizeChanged(object sender, EventArgs e)
+        {
+            foreach (Control item in Controls)
+            {
+                if (item is SimpleButton)
+                {
+                    item.Top = 11*Size.Height / 13;
+                    item.Height = Size.Height / 14;
+                    item.Width = item.Height;
+                }
+                if (item is PictureBox)
+                {
+
+                    item.Height = Size.Height / 10;
+                    item.Width = item.Height;
+                }
+                Btn_Pause.Left = Size.Width / 2;
+                Btn_Play.Left = Btn_Pause.Left - Btn_Play.Width;
+                Btn_Back.Left = Btn_Play.Left - Btn_Back.Width;
+                Btn_Next.Left = Btn_Pause.Left + Btn_Pause.Width;
+
+                pBox1.Left = Size.Width / 12;
+                pBox1.Top = Size.Height / 12;
+                pBox2.Left = Size.Width / 12;
+                pBox2.Top = 9 * Size.Height / 12;
+                pBox3.Left = 3 * Size.Width / 12;
+                pBox3.Top = Size.Height / 12;
+                pBox4.Left = 3 * Size.Width / 12;
+                pBox4.Top = 9 * Size.Height / 12;
+                pBox5.Left = 5 * Size.Width / 12;
+                pBox5.Top = Size.Height / 12;
+                pBox6.Left = 5 * Size.Width / 12;
+                pBox6.Top = 9 * Size.Height / 12;
+                pBox7.Left = 7 * Size.Width / 12;
+                pBox7.Top = Size.Height / 12;
+                pBox8.Left = 7 * Size.Width / 12;
+                pBox8.Top = 9 * Size.Height / 12;
+                pBox9.Left = 9 * Size.Width / 12;
+                pBox9.Top = Size.Height / 12;
+                pBox10.Left = 9 * Size.Width / 12;
+                pBox10.Top = 9 * Size.Height / 12;
+            }
+        }
+
+        private void Form5_Load(object sender, EventArgs e)
+        {
+            foreach (Control item in Controls)
+            {
+                if (item is SimpleButton)
+                {
+                    item.Top = 11 * Size.Height / 13;
+                    item.Height = Size.Height / 14;
+                    item.Width = item.Height;
+                }
+                if (item is PictureBox)
+                {
+                    item.Height = Size.Height / 10;
+                    item.Width = item.Height;
+                }
+                Btn_Pause.Left = Size.Width / 2;
+                Btn_Play.Left = Btn_Pause.Left - Btn_Play.Width;
+                Btn_Back.Left = Btn_Play.Left - Btn_Back.Width;
+                Btn_Next.Left = Btn_Pause.Left + Btn_Pause.Width;
+
+                pBox1.Left = Size.Width / 12;
+                pBox1.Top = Size.Height / 12;
+                pBox2.Left = Size.Width / 12;
+                pBox2.Top = 9 * Size.Height / 12;
+                pBox3.Left = 3 * Size.Width / 12;
+                pBox3.Top = Size.Height / 12;
+                pBox4.Left = 3 * Size.Width / 12;
+                pBox4.Top = 9 * Size.Height / 12;
+                pBox5.Left = 5 * Size.Width / 12;
+                pBox5.Top = Size.Height / 12;
+                pBox6.Left = 5 * Size.Width / 12;
+                pBox6.Top = 9 * Size.Height / 12;
+                pBox7.Left = 7 * Size.Width / 12;
+                pBox7.Top = Size.Height / 12;
+                pBox8.Left = 7 * Size.Width / 12;
+                pBox8.Top = 9 * Size.Height / 12;
+                pBox9.Left = 9 * Size.Width / 12;
+                pBox9.Top = Size.Height / 12;
+                pBox10.Left = 9 * Size.Width / 12;
+                pBox10.Top = 9 * Size.Height / 12;
+            }
         }
     }
 }

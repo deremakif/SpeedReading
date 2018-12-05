@@ -26,6 +26,19 @@ namespace Speed_Reading
             form10sec.Show();
             this.Hide();
         }
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            Form3 form3sec = new Form3();
+            form3sec.Show();
+            this.Hide();
+        }
+
+        private void toolStripMenuItem5_Click(object sender, EventArgs e)
+        {
+            Form5 form5sec = new Form5();
+            form5sec.Show();
+            this.Hide();
+        }
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
 
@@ -108,7 +121,7 @@ namespace Speed_Reading
             Delayed(6000, () => label6.Visible = true);
             Delayed(8000, () => label7.Visible = true);
             Delayed(10000, () => label5.Visible = true);
-            Delayed(10000, () => label8.Visible = true);
+            
             Delayed(11000, () => Btn_Play.Enabled = true);
         }
 
@@ -157,7 +170,9 @@ namespace Speed_Reading
                     //item.Width = Size.Width / 4 - 16;
                     //item.Height = Size.Height / 4;
                     //item.Font = new Font(Font.FontFamily, item.Height / 5);
-                    item.Top = Size.Height - 120;
+                    item.Top = 11 * Size.Height / 13;
+                    item.Height = Size.Height / 14;
+                    item.Width = item.Height;
                     //item.Left = 10;
                 }
 
@@ -168,7 +183,22 @@ namespace Speed_Reading
                 //button2.Left = button1.Right + 10;
                 //button2.Top = button1.Top;
             }
-        }
+            foreach (Control item in Controls)
+            {
+
+                if (item is SimpleButton)
+                {
+                    item.Top = 11 * Size.Height / 13;
+                    item.Height = Size.Height / 14;
+                    item.Width = item.Height;
+                }
+                if (item is Label)
+                {
+                    item.Left = Size.Width / 13;
+                    item.Font = new Font("Arial", Size.Width / 80, FontStyle.Bold);
+                }
+            }
+            }
 
         private void Btn_Back_Click(object sender, EventArgs e)
         {
@@ -182,16 +212,26 @@ namespace Speed_Reading
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
             foreach (Control item in Controls)
             {
-                label4.Left = Size.Width - 1300; 
+
                 if (item is SimpleButton)
                 {
-                    item.Top = Size.Height - 120;
+                    item.Top = 11 * Size.Height / 13;
+                    item.Height = Size.Height / 14;
+                    item.Width = item.Height;
                 }
+                if (item is Label)
+                {
+                    item.Left = Size.Width / 13;
+                    item.Font = new Font("Arial", Size.Width / 80, FontStyle.Bold);
+                }
+
             }
 
 
         }
+
     }
 }

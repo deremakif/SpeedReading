@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DevExpress.XtraEditors;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,6 +22,12 @@ namespace Speed_Reading
         {
             Form6 form6sec = new Form6();
             form6sec.Show();
+            this.Hide();
+        }
+        private void Btn_Pause_Click(object sender, EventArgs e)
+        {
+            Form3 form3sec = new Form3();
+            form3sec.Show();
             this.Hide();
         }
 
@@ -75,7 +82,8 @@ namespace Speed_Reading
         {
             Timer timer = new Timer();
             timer.Interval = delay;
-            timer.Tick += (s, e) => {
+            timer.Tick += (s, e) =>
+            {
                 action();
                 timer.Stop();
             };
@@ -112,30 +120,52 @@ namespace Speed_Reading
                 Delayed(6500 + t, () => pictureBox11.Visible = false);
                 Delayed(6500 + t, () => pictureBox12.Visible = true);
                 Delayed(7000 + t, () => pictureBox12.Visible = false);
-               
+
 
                 t = t + 6000;
                 i++;
             }
-              
+
         }
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            pictureBox1.Visible = false;
-            pictureBox2.Visible = false;
-            pictureBox3.Visible = false;
-            pictureBox4.Visible = false;
-            pictureBox5.Visible = false;
-            pictureBox6.Visible = false;
-            pictureBox7.Visible = false;
-            pictureBox8.Visible = false;
-            pictureBox9.Visible = false;
-            pictureBox10.Visible = false;
-            pictureBox11.Visible = false;
-            pictureBox12.Visible = false;
 
+            foreach (Control item in Controls)
+            {
+                //label4.Left = Size.Width - 1300;
+                if (item is SimpleButton)
+                {
+                    item.Top = Size.Height - 120;
+                }
+                if (item is PictureBox)
+                {
+                    item.Visible = false;
+                    item.Height = 7 * Size.Height / 8;
+                    item.Width = item.Height;
+                    item.Left = Size.Width / 2 - item.Size.Width / 2;
+                    item.Top = Size.Height / 2 - item.Size.Height / 2;
+                }
+            }
 
+        }
+
+        private void Form3_SizeChanged(object sender, EventArgs e)
+        {
+            foreach (Control item in Controls)
+            {
+                if (item is SimpleButton)
+                {
+                    item.Top = Size.Height - 120;
+                }
+                if (item is PictureBox)
+                {
+                    item.Height = 7 * Size.Height / 8;
+                    item.Width = item.Height;
+                    item.Left = Size.Width/2 - item.Size.Width/2;
+                    item.Top = Size.Height/2 - item.Size.Height / 2;
+                }
+            }
         }
     }
 }
