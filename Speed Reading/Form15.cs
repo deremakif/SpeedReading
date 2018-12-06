@@ -14,6 +14,10 @@ namespace Speed_Reading
     {
         public Form15()
         {
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.BackColor = Color.White;
+            this.TransparencyKey = Color.DimGray;
+            this.Opacity = 90;
             InitializeComponent();
         }
     }

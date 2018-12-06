@@ -52,7 +52,7 @@
             this.groupBox1.Size = new System.Drawing.Size(358, 199);
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Admin Panel";
+            this.groupBox1.Text = "Yönetici Paneli";
             // 
             // button1
             // 

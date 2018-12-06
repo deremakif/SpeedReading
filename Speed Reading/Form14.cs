@@ -16,12 +16,25 @@ namespace Speed_Reading
         public Form14()
         {
             InitializeComponent();
+            
+            
         }
+        
 
         private void Form14_Load(object sender, EventArgs e)
         {
+            
+            
             foreach (Control item in Controls)
             {
+                
+
+                pictureBox1.Width = 616*Size.Width / 1000;
+                pictureBox1.Height = 805 * Size.Height / 1000;
+                pictureBox1.Left = 191 * Size.Width / 1000;
+                pictureBox1.Top = 40 * Size.Height / 1000;
+
+
                 Btn_Pause.Left = Size.Width / 2;
                 Btn_Play.Left = Btn_Pause.Left - Btn_Play.Width;
                 Btn_Back.Left = Btn_Play.Left - Btn_Back.Width;
@@ -39,11 +52,22 @@ namespace Speed_Reading
                 }
             }
         }
+        Form15 form15sec = new Form15();
 
         private void Form14_SizeChanged(object sender, EventArgs e)
         {
             foreach (Control item in Controls)
             {
+
+                form15sec.Location = new Point(191 * Size.Width / 1000 + this.Location.X, 40 * Size.Height / 1000+ this.Location.Y);
+                form15sec.Width = pictureBox1.Width;
+                form15sec.Height = pictureBox1.Height /10;
+
+                pictureBox1.Width = 616 * Size.Width / 1000;
+                pictureBox1.Height = 805 * Size.Height / 1000;
+                pictureBox1.Left = 191*Size.Width / 1000;
+                pictureBox1.Top = 40 * Size.Height / 1000;
+
                 Btn_Pause.Left = Size.Width / 2;
                 Btn_Play.Left = Btn_Pause.Left - Btn_Play.Width;
                 Btn_Back.Left = Btn_Play.Left - Btn_Back.Width;
@@ -73,6 +97,13 @@ namespace Speed_Reading
 
         private void menuStrip1_SizeChanged(object sender, EventArgs e)
         {
+            
+        }
+
+        private void Btn_Play_Click(object sender, EventArgs e)
+        {
+            
+            form15sec.Show();
             
         }
     }

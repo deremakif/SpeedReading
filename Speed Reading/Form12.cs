@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+//using System.Data.SqlClient;
 
 namespace Speed_Reading
 {
@@ -16,6 +17,9 @@ namespace Speed_Reading
         {
             InitializeComponent();
         }
+
+        //SqlConnection sc = new SqlConnection();
+
         string kullaniciadi = "akif";
         string sifre = "abc";
 
