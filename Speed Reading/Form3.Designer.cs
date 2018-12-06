@@ -67,7 +67,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(386, 43);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(600, 600);
+            this.pictureBox1.Size = new System.Drawing.Size(514, 512);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
@@ -80,7 +80,7 @@
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(386, 43);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(600, 600);
+            this.pictureBox2.Size = new System.Drawing.Size(514, 512);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
@@ -93,7 +93,7 @@
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(386, 43);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(600, 600);
+            this.pictureBox3.Size = new System.Drawing.Size(514, 512);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 10;
             this.pictureBox3.TabStop = false;
@@ -106,7 +106,7 @@
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(386, 43);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(600, 600);
+            this.pictureBox4.Size = new System.Drawing.Size(514, 512);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 11;
             this.pictureBox4.TabStop = false;
@@ -119,7 +119,7 @@
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(386, 43);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(600, 600);
+            this.pictureBox5.Size = new System.Drawing.Size(514, 512);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 12;
             this.pictureBox5.TabStop = false;
@@ -132,7 +132,7 @@
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.Location = new System.Drawing.Point(386, 43);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(600, 600);
+            this.pictureBox6.Size = new System.Drawing.Size(514, 512);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 13;
             this.pictureBox6.TabStop = false;
@@ -145,7 +145,7 @@
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(386, 43);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(600, 600);
+            this.pictureBox7.Size = new System.Drawing.Size(514, 512);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 14;
             this.pictureBox7.TabStop = false;
@@ -158,7 +158,7 @@
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
             this.pictureBox8.Location = new System.Drawing.Point(386, 43);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(600, 600);
+            this.pictureBox8.Size = new System.Drawing.Size(514, 512);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 15;
             this.pictureBox8.TabStop = false;
@@ -171,7 +171,7 @@
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
             this.pictureBox9.Location = new System.Drawing.Point(386, 43);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(600, 600);
+            this.pictureBox9.Size = new System.Drawing.Size(514, 512);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 16;
             this.pictureBox9.TabStop = false;
@@ -184,7 +184,7 @@
             this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
             this.pictureBox10.Location = new System.Drawing.Point(386, 43);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(600, 600);
+            this.pictureBox10.Size = new System.Drawing.Size(514, 512);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 17;
             this.pictureBox10.TabStop = false;
@@ -197,7 +197,7 @@
             this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
             this.pictureBox11.Location = new System.Drawing.Point(386, 43);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(600, 600);
+            this.pictureBox11.Size = new System.Drawing.Size(514, 512);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 18;
             this.pictureBox11.TabStop = false;
@@ -210,15 +210,15 @@
             this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
             this.pictureBox12.Location = new System.Drawing.Point(386, 43);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(600, 600);
+            this.pictureBox12.Size = new System.Drawing.Size(514, 512);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox12.TabIndex = 19;
             this.pictureBox12.TabStop = false;
             // 
             // Btn_Back
             // 
-            this.Btn_Back.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.Btn_Back.Location = new System.Drawing.Point(356, 671);
+            this.Btn_Back.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Back.ImageOptions.Image")));
+            this.Btn_Back.Location = new System.Drawing.Point(168, 570);
             this.Btn_Back.Name = "Btn_Back";
             this.Btn_Back.Size = new System.Drawing.Size(47, 38);
             this.Btn_Back.TabIndex = 72;
@@ -226,8 +226,8 @@
             // 
             // Btn_Next
             // 
-            this.Btn_Next.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
-            this.Btn_Next.Location = new System.Drawing.Point(491, 671);
+            this.Btn_Next.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Next.ImageOptions.Image")));
+            this.Btn_Next.Location = new System.Drawing.Point(303, 570);
             this.Btn_Next.Name = "Btn_Next";
             this.Btn_Next.Size = new System.Drawing.Size(47, 38);
             this.Btn_Next.TabIndex = 71;
@@ -235,8 +235,8 @@
             // 
             // Btn_Pause
             // 
-            this.Btn_Pause.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
-            this.Btn_Pause.Location = new System.Drawing.Point(446, 671);
+            this.Btn_Pause.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Pause.ImageOptions.Image")));
+            this.Btn_Pause.Location = new System.Drawing.Point(258, 570);
             this.Btn_Pause.Name = "Btn_Pause";
             this.Btn_Pause.Size = new System.Drawing.Size(47, 38);
             this.Btn_Pause.TabIndex = 70;
@@ -244,8 +244,8 @@
             // 
             // Btn_Play
             // 
-            this.Btn_Play.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton4.ImageOptions.Image")));
-            this.Btn_Play.Location = new System.Drawing.Point(401, 671);
+            this.Btn_Play.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Play.ImageOptions.Image")));
+            this.Btn_Play.Location = new System.Drawing.Point(213, 570);
             this.Btn_Play.Name = "Btn_Play";
             this.Btn_Play.Size = new System.Drawing.Size(47, 38);
             this.Btn_Play.TabIndex = 69;
@@ -255,7 +255,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(1284, 661);
             this.Controls.Add(this.Btn_Back);
             this.Controls.Add(this.Btn_Next);
             this.Controls.Add(this.Btn_Pause);
@@ -273,7 +274,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form3";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.SizeChanged += new System.EventHandler(this.Form3_SizeChanged);

@@ -156,7 +156,6 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.AutoSize = false;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1,
             this.toolStripMenuItem2,
@@ -181,7 +180,7 @@
             this.toolStripMenuItem21});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1284, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1284, 29);
             this.menuStrip1.TabIndex = 41;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -302,6 +301,7 @@
             this.toolStripMenuItem10.Name = "toolStripMenuItem10";
             this.toolStripMenuItem10.Size = new System.Drawing.Size(60, 25);
             this.toolStripMenuItem10.Text = "10";
+            this.toolStripMenuItem10.Click += new System.EventHandler(this.toolStripMenuItem10_Click);
             // 
             // toolStripMenuItem11
             // 
@@ -331,6 +331,7 @@
             this.toolStripMenuItem14.Name = "toolStripMenuItem14";
             this.toolStripMenuItem14.Size = new System.Drawing.Size(60, 25);
             this.toolStripMenuItem14.Text = "14";
+            this.toolStripMenuItem14.Click += new System.EventHandler(this.toolStripMenuItem14_Click);
             // 
             // toolStripMenuItem15
             // 
@@ -422,6 +423,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1284, 661);
             this.Controls.Add(this.Btn_Back);
             this.Controls.Add(this.Btn_Next);

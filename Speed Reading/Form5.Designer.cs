@@ -202,7 +202,7 @@
             // pBox9
             // 
             this.pBox9.Image = ((System.Drawing.Image)(resources.GetObject("pBox9.Image")));
-            this.pBox9.Location = new System.Drawing.Point(1146, 25);
+            this.pBox9.Location = new System.Drawing.Point(1112, 25);
             this.pBox9.Name = "pBox9";
             this.pBox9.Size = new System.Drawing.Size(60, 60);
             this.pBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -213,7 +213,7 @@
             // pBox10
             // 
             this.pBox10.Image = ((System.Drawing.Image)(resources.GetObject("pBox10.Image")));
-            this.pBox10.Location = new System.Drawing.Point(1146, 511);
+            this.pBox10.Location = new System.Drawing.Point(1112, 511);
             this.pBox10.Name = "pBox10";
             this.pBox10.Size = new System.Drawing.Size(60, 60);
             this.pBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -235,7 +235,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(1169, 27);
+            this.pictureBox2.Location = new System.Drawing.Point(1080, 37);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(60, 60);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -257,7 +257,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(1169, 144);
+            this.pictureBox4.Location = new System.Drawing.Point(1091, 144);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(60, 60);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -279,7 +279,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(1169, 259);
+            this.pictureBox6.Location = new System.Drawing.Point(1091, 259);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(60, 60);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -301,7 +301,7 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(1169, 373);
+            this.pictureBox8.Location = new System.Drawing.Point(1091, 373);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(60, 60);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -323,7 +323,7 @@
             // pictureBox10
             // 
             this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(1169, 487);
+            this.pictureBox10.Location = new System.Drawing.Point(1091, 487);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(60, 60);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -411,7 +411,6 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.AutoSize = false;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1,
             this.toolStripMenuItem2,
@@ -436,7 +435,7 @@
             this.toolStripMenuItem21});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1184, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1184, 29);
             this.menuStrip1.TabIndex = 40;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -634,7 +633,7 @@
             // 
             // Btn_Back
             // 
-            this.Btn_Back.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.Btn_Back.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Back.ImageOptions.Image")));
             this.Btn_Back.Location = new System.Drawing.Point(527, 593);
             this.Btn_Back.Name = "Btn_Back";
             this.Btn_Back.Size = new System.Drawing.Size(47, 38);
@@ -643,7 +642,7 @@
             // 
             // Btn_Next
             // 
-            this.Btn_Next.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
+            this.Btn_Next.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Next.ImageOptions.Image")));
             this.Btn_Next.Location = new System.Drawing.Point(662, 593);
             this.Btn_Next.Name = "Btn_Next";
             this.Btn_Next.Size = new System.Drawing.Size(47, 38);
@@ -652,7 +651,7 @@
             // 
             // Btn_Pause
             // 
-            this.Btn_Pause.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
+            this.Btn_Pause.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Pause.ImageOptions.Image")));
             this.Btn_Pause.Location = new System.Drawing.Point(617, 593);
             this.Btn_Pause.Name = "Btn_Pause";
             this.Btn_Pause.Size = new System.Drawing.Size(47, 38);
@@ -661,7 +660,7 @@
             // 
             // Btn_Play
             // 
-            this.Btn_Play.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton4.ImageOptions.Image")));
+            this.Btn_Play.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Play.ImageOptions.Image")));
             this.Btn_Play.Location = new System.Drawing.Point(572, 593);
             this.Btn_Play.Name = "Btn_Play";
             this.Btn_Play.Size = new System.Drawing.Size(47, 38);

@@ -257,6 +257,30 @@ namespace Speed_Reading
                 pBox9.Top = Size.Height / 12;
                 pBox10.Left = 9 * Size.Width / 12;
                 pBox10.Top = 9 * Size.Height / 12;
+
+                pictureBox1.Left = Size.Width / 12;
+                pictureBox1.Top = Size.Height / 12;
+                pictureBox2.Left = 9 * Size.Width / 12;
+                pictureBox2.Top = Size.Height / 12;
+                pictureBox3.Left = Size.Width / 12;
+                pictureBox3.Top = 3 * Size.Height / 12;
+                pictureBox4.Left = 9 * Size.Width / 12;
+                pictureBox4.Top = 3 * Size.Height / 12;
+                pictureBox5.Left = Size.Width / 12;
+                pictureBox5.Top = 5 * Size.Height / 12;
+                pictureBox6.Left = 9 * Size.Width / 12;
+                pictureBox6.Top = 5 * Size.Height / 12;
+                pictureBox7.Left = Size.Width / 12;
+                pictureBox7.Top = 7 * Size.Height / 12;
+                pictureBox8.Left = 9 * Size.Width / 12;
+                pictureBox8.Top = 7 * Size.Height / 12;
+                pictureBox9.Left = Size.Width / 12;
+                pictureBox9.Top = 9 * Size.Height / 12;
+                pictureBox10.Left = 9 * Size.Width / 12;
+                pictureBox10.Top = 9 * Size.Height / 12;
+
+                menuStrip1.Width = Size.Width;
+
             }
         }
 
@@ -300,6 +324,29 @@ namespace Speed_Reading
                 pBox9.Top = Size.Height / 12;
                 pBox10.Left = 9 * Size.Width / 12;
                 pBox10.Top = 9 * Size.Height / 12;
+
+                pictureBox1.Left = Size.Width / 12;
+                pictureBox1.Top = Size.Height / 12;
+                pictureBox2.Left = 9 * Size.Width / 12;
+                pictureBox2.Top = Size.Height / 12;
+                pictureBox3.Left = Size.Width / 12;
+                pictureBox3.Top = 3*Size.Height / 12;
+                pictureBox4.Left = 9 * Size.Width / 12;
+                pictureBox4.Top = 3 * Size.Height / 12;
+                pictureBox5.Left = Size.Width / 12;
+                pictureBox5.Top = 5*Size.Height / 12;
+                pictureBox6.Left = 9 * Size.Width / 12;
+                pictureBox6.Top = 5 * Size.Height / 12;
+                pictureBox7.Left = Size.Width / 12;
+                pictureBox7.Top = 7*Size.Height / 12;
+                pictureBox8.Left = 9 * Size.Width / 12;
+                pictureBox8.Top = 7 * Size.Height / 12;
+                pictureBox9.Left = Size.Width / 12;
+                pictureBox9.Top = 9 * Size.Height / 12;
+                pictureBox10.Left = 9 * Size.Width / 12;
+                pictureBox10.Top = 9 * Size.Height / 12;
+
+                menuStrip1.Width = Size.Width;
             }
         }
     }

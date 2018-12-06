@@ -21,12 +21,16 @@ namespace Speed_Reading
         private void Btn_Next_Click(object sender, EventArgs e)
         {
             Form6 form6sec = new Form6();
+            form6sec.Location = new Point(this.Location.X, this.Location.Y);
+            form6sec.Size = this.Size;
             form6sec.Show();
             this.Hide();
         }
         private void Btn_Pause_Click(object sender, EventArgs e)
         {
             Form3 form3sec = new Form3();
+            form3sec.Location = new Point(this.Location.X, this.Location.Y);
+            form3sec.Size = this.Size;
             form3sec.Show();
             this.Hide();
         }
@@ -34,6 +38,8 @@ namespace Speed_Reading
         private void Btn_Back_Click(object sender, EventArgs e)
         {
             Form5 form5sec = new Form5();
+            form5sec.Location = new Point(this.Location.X, this.Location.Y);
+            form5sec.Size = this.Size;
             form5sec.Show();
             this.Hide();
         }
@@ -130,13 +136,19 @@ namespace Speed_Reading
 
         private void Form3_Load(object sender, EventArgs e)
         {
+            Btn_Pause.Left = Size.Width / 2;
+            Btn_Play.Left = Btn_Pause.Left - Btn_Play.Width;
+            Btn_Back.Left = Btn_Play.Left - Btn_Back.Width;
+            Btn_Next.Left = Btn_Pause.Left + Btn_Pause.Width;
 
             foreach (Control item in Controls)
             {
-                //label4.Left = Size.Width - 1300;
+                
                 if (item is SimpleButton)
                 {
-                    item.Top = Size.Height - 120;
+                    item.Top = 11 * Size.Height / 13;
+                    item.Height = Size.Height / 14;
+                    item.Width = item.Height;
                 }
                 if (item is PictureBox)
                 {
@@ -152,11 +164,17 @@ namespace Speed_Reading
 
         private void Form3_SizeChanged(object sender, EventArgs e)
         {
+            Btn_Pause.Left = Size.Width / 2;
+            Btn_Play.Left = Btn_Pause.Left - Btn_Play.Width;
+            Btn_Back.Left = Btn_Play.Left - Btn_Back.Width;
+            Btn_Next.Left = Btn_Pause.Left + Btn_Pause.Width;
             foreach (Control item in Controls)
             {
                 if (item is SimpleButton)
                 {
-                    item.Top = Size.Height - 120;
+                    item.Top = 11 * Size.Height / 13;
+                    item.Height = Size.Height / 14;
+                    item.Width = item.Height;
                 }
                 if (item is PictureBox)
                 {

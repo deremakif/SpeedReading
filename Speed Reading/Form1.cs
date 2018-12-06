@@ -23,12 +23,16 @@ namespace Speed_Reading
         private void Btn_Next_Click(object sender, EventArgs e)
         {
             Form10 form10sec = new Form10();
+            form10sec.Location = new Point(this.Location.X, this.Location.Y);
+            form10sec.Size = this.Size;
             form10sec.Show();
             this.Hide();
         }
         private void toolStripMenuItem3_Click(object sender, EventArgs e)
         {
             Form3 form3sec = new Form3();
+            form3sec.Location = new Point(this.Location.X, this.Location.Y);
+            form3sec.Size = this.Size;
             form3sec.Show();
             this.Hide();
         }
@@ -36,7 +40,53 @@ namespace Speed_Reading
         private void toolStripMenuItem5_Click(object sender, EventArgs e)
         {
             Form5 form5sec = new Form5();
+            form5sec.Location = new Point(this.Location.X, this.Location.Y);
+            form5sec.Size = this.Size;
             form5sec.Show();
+            this.Hide();
+        }
+        private void toolStripMenuItem8_Click(object sender, EventArgs e)
+        {
+
+            Form8 form8sec = new Form8();
+            form8sec.Location = new Point(this.Location.X, this.Location.Y);
+            form8sec.Size = this.Size;
+            form8sec.Show();
+            this.Hide();
+        }
+
+        private void toolStripMenuItem14_Click(object sender, EventArgs e)
+        {
+            Form14 form14sec = new Form14();
+            form14sec.Location = new Point(this.Location.X, this.Location.Y);
+            form14sec.Size = this.Size;
+            form14sec.Show();
+            this.Hide();
+        }
+
+        private void toolStripMenuItem9_Click(object sender, EventArgs e)
+        {
+            Form9 form9sec = new Form9();
+            form9sec.Location = new Point(this.Location.X, this.Location.Y);
+            form9sec.Size = this.Size;
+            form9sec.Show();
+            this.Hide();
+        }
+
+        private void toolStripMenuItem13_Click(object sender, EventArgs e)
+        {
+            Form13 form13sec = new Form13();
+            form13sec.Location = new Point(this.Location.X, this.Location.Y);
+            form13sec.Size = this.Size;
+            form13sec.Show();
+            this.Hide();
+        }
+        private void toolStripMenuItem10_Click(object sender, EventArgs e)
+        {
+            Form10 form10sec = new Form10();
+            form10sec.Size = this.Size;
+            form10sec.Location = new Point(this.Location.X, this.Location.Y);
+            form10sec.Show();
             this.Hide();
         }
         private void Form1_KeyDown(object sender, KeyEventArgs e)
@@ -45,6 +95,8 @@ namespace Speed_Reading
             if (e.KeyCode == Keys.Right)
             {
                 Form10 form10sec = new Form10();
+                form10sec.Location = new Point(this.Location.X, this.Location.Y);
+                form10sec.Size = this.Size;
                 form10sec.Show();
                 this.Hide();
             }
@@ -53,6 +105,8 @@ namespace Speed_Reading
         private void Btn_Pause_Click(object sender, EventArgs e)
         {
             Form1 form1sec = new Form1();
+            form1sec.Location = new Point(this.Location.X, this.Location.Y);
+            form1sec.Size = this.Size;
             form1sec.Show();
             this.Hide();
         }
@@ -121,70 +175,22 @@ namespace Speed_Reading
             Delayed(6000, () => label6.Visible = true);
             Delayed(8000, () => label7.Visible = true);
             Delayed(10000, () => label5.Visible = true);
-            
+
             Delayed(11000, () => Btn_Play.Enabled = true);
         }
 
-        private void toolStripMenuItem8_Click(object sender, EventArgs e)
-        {
 
-            Form8 form8sec = new Form8();
-            form8sec.Show();
-            this.Hide();
-        }
-
-        private void toolStripMenuItem9_Click(object sender, EventArgs e)
-        {
-
-            Form9 form9sec = new Form9();
-            form9sec.Show();
-            this.Hide();
-        }
-
-        private void toolStripMenuItem13_Click(object sender, EventArgs e)
-        {
-            Form13 form13sec = new Form13();
-            form13sec.Show();
-            this.Hide();
-        }
 
         void SetComponents()
         {
             foreach (Control item in Controls)
             {
-                //if (item is Button)
-                //{
-                //    item.Width = Size.Width / 4 - 16;
-                //    item.Height = Size.Height / 4;
-                //    item.Font = new Font(Font.FontFamily, item.Height / 5);
-                //}
+                menuStrip1.Width = Size.Width;
 
-                //button1.Left = 10;
-                //button1.Top = 10;
-
-                //button2.Left = button1.Right + 10;
-                //button2.Top = button1.Top;
-
-                if (item is SimpleButton)
-                {
-                    //item.Width = Size.Width / 4 - 16;
-                    //item.Height = Size.Height / 4;
-                    //item.Font = new Font(Font.FontFamily, item.Height / 5);
-                    item.Top = 11 * Size.Height / 13;
-                    item.Height = Size.Height / 14;
-                    item.Width = item.Height;
-                    //item.Left = 10;
-                }
-
-
-                //button1.Left = 10;
-                //button1.Top = 10;
-
-                //button2.Left = button1.Right + 10;
-                //button2.Top = button1.Top;
-            }
-            foreach (Control item in Controls)
-            {
+                Btn_Pause.Left = Size.Width / 2;
+                Btn_Play.Left = Btn_Pause.Left - Btn_Play.Width;
+                Btn_Back.Left = Btn_Play.Left - Btn_Back.Width;
+                Btn_Next.Left = Btn_Pause.Left + Btn_Pause.Width;
 
                 if (item is SimpleButton)
                 {
@@ -192,13 +198,19 @@ namespace Speed_Reading
                     item.Height = Size.Height / 14;
                     item.Width = item.Height;
                 }
+
                 if (item is Label)
                 {
                     item.Left = Size.Width / 13;
                     item.Font = new Font("Arial", Size.Width / 80, FontStyle.Bold);
                 }
+
+                foreach (ToolStripMenuItem tsmi in menuStrip1.Items)
+                {
+                    tsmi.Width = Size.Width / 22;
+                }
             }
-            }
+        }
 
         private void Btn_Back_Click(object sender, EventArgs e)
         {
@@ -212,9 +224,13 @@ namespace Speed_Reading
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
             foreach (Control item in Controls)
             {
+                menuStrip1.Width = Size.Width;
+                Btn_Pause.Left = Size.Width / 2;
+                Btn_Play.Left = Btn_Pause.Left - Btn_Play.Width;
+                Btn_Back.Left = Btn_Play.Left - Btn_Back.Width;
+                Btn_Next.Left = Btn_Pause.Left + Btn_Pause.Width;
 
                 if (item is SimpleButton)
                 {
@@ -227,10 +243,11 @@ namespace Speed_Reading
                     item.Left = Size.Width / 13;
                     item.Font = new Font("Arial", Size.Width / 80, FontStyle.Bold);
                 }
-
+                foreach (ToolStripMenuItem tsmi in menuStrip1.Items)
+                {
+                    tsmi.Width = Size.Width / 22;
+                }
             }
-
-
         }
 
     }

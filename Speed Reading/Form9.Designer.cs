@@ -71,7 +71,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(74, 71);
+            this.pictureBox5.Location = new System.Drawing.Point(40, 64);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(1197, 354);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -81,9 +81,9 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.DarkGreen;
-            this.pictureBox1.Location = new System.Drawing.Point(220, 131);
+            this.pictureBox1.Location = new System.Drawing.Point(203, 125);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(250, 5);
+            this.pictureBox1.Size = new System.Drawing.Size(210, 5);
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
@@ -114,7 +114,7 @@
             this.toolStripMenuItem21});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1370, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1284, 24);
             this.menuStrip1.TabIndex = 42;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -312,24 +312,24 @@
             // Btn_Back
             // 
             this.Btn_Back.Enabled = false;
-            this.Btn_Back.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.Btn_Back.Location = new System.Drawing.Point(199, 687);
+            this.Btn_Back.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Back.ImageOptions.Image")));
+            this.Btn_Back.Location = new System.Drawing.Point(251, 554);
             this.Btn_Back.Name = "Btn_Back";
             this.Btn_Back.Size = new System.Drawing.Size(47, 38);
             this.Btn_Back.TabIndex = 76;
             // 
             // Btn_Next
             // 
-            this.Btn_Next.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
-            this.Btn_Next.Location = new System.Drawing.Point(334, 687);
+            this.Btn_Next.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Next.ImageOptions.Image")));
+            this.Btn_Next.Location = new System.Drawing.Point(386, 554);
             this.Btn_Next.Name = "Btn_Next";
             this.Btn_Next.Size = new System.Drawing.Size(47, 38);
             this.Btn_Next.TabIndex = 75;
             // 
             // Btn_Pause
             // 
-            this.Btn_Pause.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
-            this.Btn_Pause.Location = new System.Drawing.Point(289, 687);
+            this.Btn_Pause.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Pause.ImageOptions.Image")));
+            this.Btn_Pause.Location = new System.Drawing.Point(341, 554);
             this.Btn_Pause.Name = "Btn_Pause";
             this.Btn_Pause.Size = new System.Drawing.Size(47, 38);
             this.Btn_Pause.TabIndex = 74;
@@ -337,8 +337,8 @@
             // 
             // Btn_Play
             // 
-            this.Btn_Play.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton4.ImageOptions.Image")));
-            this.Btn_Play.Location = new System.Drawing.Point(244, 687);
+            this.Btn_Play.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Play.ImageOptions.Image")));
+            this.Btn_Play.Location = new System.Drawing.Point(296, 554);
             this.Btn_Play.Name = "Btn_Play";
             this.Btn_Play.Size = new System.Drawing.Size(47, 38);
             this.Btn_Play.TabIndex = 73;
@@ -348,7 +348,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.ClientSize = new System.Drawing.Size(1284, 661);
             this.Controls.Add(this.Btn_Back);
             this.Controls.Add(this.Btn_Next);
             this.Controls.Add(this.Btn_Pause);
@@ -357,7 +357,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox5);
             this.Name = "Form9";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form9";
             this.Load += new System.EventHandler(this.Form9_Load);
             this.SizeChanged += new System.EventHandler(this.Form9_SizeChanged);
