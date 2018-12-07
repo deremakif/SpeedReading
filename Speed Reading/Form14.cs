@@ -24,16 +24,24 @@ namespace Speed_Reading
         private void Form14_Load(object sender, EventArgs e)
         {
             
-            
+
             foreach (Control item in Controls)
             {
-                
-
-                pictureBox1.Width = 616*Size.Width / 1000;
+                pictureBox1.Width = 616 * Size.Width / 1000;
                 pictureBox1.Height = 805 * Size.Height / 1000;
                 pictureBox1.Left = 191 * Size.Width / 1000;
                 pictureBox1.Top = 40 * Size.Height / 1000;
 
+
+                form15sec.Location = new Point(this.Location.X + 191 * Size.Width / 1000, this.Location.Y + 40 * Size.Height / 100);
+                form15sec.Width = pictureBox1.Width;
+                form15sec.Height = pictureBox1.Height / 5;
+
+                //form16sec.Location = new Point(pictureBox1.Left + this.Location.X, pictureBox1.Top + 3 * pictureBox1.Height / 5 + this.Location.Y);
+                //form16sec.Width = pictureBox1.Width;
+                //form16sec.Height = pictureBox1.Height / 5;
+
+              
 
                 Btn_Pause.Left = Size.Width / 2;
                 Btn_Play.Left = Btn_Pause.Left - Btn_Play.Width;
@@ -53,20 +61,28 @@ namespace Speed_Reading
             }
         }
         Form15 form15sec = new Form15();
+        //Form16 form16sec = new Form16();
 
         private void Form14_SizeChanged(object sender, EventArgs e)
         {
+           
+
             foreach (Control item in Controls)
             {
-
-                form15sec.Location = new Point(191 * Size.Width / 1000 + this.Location.X, 40 * Size.Height / 1000+ this.Location.Y);
-                form15sec.Width = pictureBox1.Width;
-                form15sec.Height = pictureBox1.Height /10;
-
                 pictureBox1.Width = 616 * Size.Width / 1000;
                 pictureBox1.Height = 805 * Size.Height / 1000;
-                pictureBox1.Left = 191*Size.Width / 1000;
+                pictureBox1.Left = 191 * Size.Width / 1000;
                 pictureBox1.Top = 40 * Size.Height / 1000;
+
+                form15sec.Location = new Point(this.Location.X + 191 * Size.Width / 1000, this.Location.Y + 40 * Size.Height / 100);
+                form15sec.Width = pictureBox1.Width;
+                form15sec.Height = pictureBox1.Height / 5;
+
+                //form16sec.Location = new Point(pictureBox1.Left + this.Location.X, pictureBox1.Top+3*pictureBox1.Height/5 + this.Location.Y);
+                //form16sec.Width = pictureBox1.Width;
+                //form16sec.Height = pictureBox1.Height / 5;
+
+               
 
                 Btn_Pause.Left = Size.Width / 2;
                 Btn_Play.Left = Btn_Pause.Left - Btn_Play.Width;
@@ -104,7 +120,9 @@ namespace Speed_Reading
         {
             
             form15sec.Show();
-            
+            form15sec.Focus();
+            //form16sec.Show();
+
         }
     }
 }

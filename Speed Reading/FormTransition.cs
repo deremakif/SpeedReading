@@ -23,11 +23,17 @@ namespace Speed_Reading
         //}
 
 
-        public void FormChange(string x1, string x2)
+        public void FormChange(Form x1, Form x2)
         {
-            if (x1 =="Form1.cs" && x2 =="Form9.cs")
+            if (x1 == Form1.ActiveForm && x2 == Form9.ActiveForm)
             {
-                
+
+                //Form9 form9sec = new Form9();
+                x2.Location = new Point(x1.Location.X, x1.Location.Y);
+                x2.Size = x1.Size;
+                x2.Show();
+                x2.Focus();
+                //this.Hide();
 
 
                 //Form9.ActiveForm.Location = new Point(t1.Location.X, t1.Location.Y);

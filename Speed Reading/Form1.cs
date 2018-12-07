@@ -64,6 +64,7 @@ namespace Speed_Reading
             this.Hide();
         }
 
+
         private void toolStripMenuItem9_Click(object sender, EventArgs e)
         {
             Form9 form9sec = new Form9();
@@ -72,7 +73,14 @@ namespace Speed_Reading
             form9sec.Show();
             this.Hide();
         }
-
+        private void toolStripMenuItem18_Click(object sender, EventArgs e)
+        {
+            Form18 form18sec = new Form18();
+            form18sec.Location = new Point(this.Location.X, this.Location.Y);
+            form18sec.Size = this.Size;
+            form18sec.Show();
+            this.Hide();
+        }
         private void toolStripMenuItem13_Click(object sender, EventArgs e)
         {
             Form13 form13sec = new Form13();
@@ -87,6 +95,14 @@ namespace Speed_Reading
             form10sec.Size = this.Size;
             form10sec.Location = new Point(this.Location.X, this.Location.Y);
             form10sec.Show();
+            this.Hide();
+        }
+        private void toolStripMenuItem17_Click(object sender, EventArgs e)
+        {
+            Form17 form17sec = new Form17();
+            form17sec.Size = this.Size;
+            form17sec.Location = new Point(this.Location.X, this.Location.Y);
+            form17sec.Show();
             this.Hide();
         }
         private void Form1_KeyDown(object sender, KeyEventArgs e)
@@ -227,6 +243,7 @@ namespace Speed_Reading
             foreach (Control item in Controls)
             {
                 menuStrip1.Width = Size.Width;
+
                 Btn_Pause.Left = Size.Width / 2;
                 Btn_Play.Left = Btn_Pause.Left - Btn_Play.Width;
                 Btn_Back.Left = Btn_Play.Left - Btn_Back.Width;
@@ -250,5 +267,6 @@ namespace Speed_Reading
             }
         }
 
+        
     }
 }
