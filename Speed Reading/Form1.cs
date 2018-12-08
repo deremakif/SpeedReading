@@ -105,6 +105,15 @@ namespace Speed_Reading
             form17sec.Show();
             this.Hide();
         }
+        private void toolStripMenuItem19_Click(object sender, EventArgs e)
+        {
+            Form19 form19sec = new Form19();
+            form19sec.Size = this.Size;
+            form19sec.Location = new Point(this.Location.X, this.Location.Y);
+            form19sec.Show();
+            this.Hide();
+        }
+
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
 

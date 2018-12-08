@@ -29,80 +29,65 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form19));
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.Btn_Back = new DevExpress.XtraEditors.SimpleButton();
+            this.Btn_Next = new DevExpress.XtraEditors.SimpleButton();
+            this.Btn_Pause = new DevExpress.XtraEditors.SimpleButton();
+            this.Btn_Play = new DevExpress.XtraEditors.SimpleButton();
             this.SuspendLayout();
             // 
-            // pictureBox4
+            // Btn_Back
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(453, 404);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(39, 34);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 7;
-            this.pictureBox4.TabStop = false;
+            this.Btn_Back.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Back.ImageOptions.Image")));
+            this.Btn_Back.Location = new System.Drawing.Point(556, 596);
+            this.Btn_Back.Name = "Btn_Back";
+            this.Btn_Back.Size = new System.Drawing.Size(47, 38);
+            this.Btn_Back.TabIndex = 76;
             // 
-            // pictureBox3
+            // Btn_Next
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(408, 404);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(39, 34);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 6;
-            this.pictureBox3.TabStop = false;
+            this.Btn_Next.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Next.ImageOptions.Image")));
+            this.Btn_Next.Location = new System.Drawing.Point(691, 596);
+            this.Btn_Next.Name = "Btn_Next";
+            this.Btn_Next.Size = new System.Drawing.Size(47, 38);
+            this.Btn_Next.TabIndex = 75;
             // 
-            // pictureBox2
+            // Btn_Pause
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(363, 404);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(39, 34);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 5;
-            this.pictureBox2.TabStop = false;
+            this.Btn_Pause.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Pause.ImageOptions.Image")));
+            this.Btn_Pause.Location = new System.Drawing.Point(646, 596);
+            this.Btn_Pause.Name = "Btn_Pause";
+            this.Btn_Pause.Size = new System.Drawing.Size(47, 38);
+            this.Btn_Pause.TabIndex = 74;
             // 
-            // pictureBox1
+            // Btn_Play
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(318, 404);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(39, 34);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
+            this.Btn_Play.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Play.ImageOptions.Image")));
+            this.Btn_Play.Location = new System.Drawing.Point(601, 596);
+            this.Btn_Play.Name = "Btn_Play";
+            this.Btn_Play.Size = new System.Drawing.Size(47, 38);
+            this.Btn_Play.TabIndex = 73;
             // 
             // Form19
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(1284, 661);
+            this.Controls.Add(this.Btn_Back);
+            this.Controls.Add(this.Btn_Next);
+            this.Controls.Add(this.Btn_Pause);
+            this.Controls.Add(this.Btn_Play);
             this.Name = "Form19";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form19";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private DevExpress.XtraEditors.SimpleButton Btn_Back;
+        private DevExpress.XtraEditors.SimpleButton Btn_Next;
+        private DevExpress.XtraEditors.SimpleButton Btn_Pause;
+        private DevExpress.XtraEditors.SimpleButton Btn_Play;
     }
 }

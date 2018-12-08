@@ -18,11 +18,8 @@ namespace Speed_Reading
             InitializeComponent();
         }
 
-
-
-
+        /*
         SqlConnection sqlcon = new SqlConnection(@"Data Source=LOCALHOST;Initial Catalog=Users;Integrated Security=True");
-
         private void button1_Click(object sender, EventArgs e)
         {
             sqlcon.Open();
@@ -37,8 +34,26 @@ namespace Speed_Reading
                 form1sec.Show();
                 this.Hide();
             }
-            else MessageBox.Show("Kullanıcı adı veya şifre yanlış!", "Dikkat", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            
+            else MessageBox.Show("Kullanıcı adı veya şifre yanlış!", "Dikkat", MessageBoxButtons.OK, MessageBoxIcon.Error);            
         }
+
+        */
+
+        private void button1_Click(object sender, EventArgs e)
+        {            
+            if (textBox1.Text=="akif" && textBox2.Text=="abc")
+            {
+                Form1 form1sec = new Form1();
+                form1sec.Size = this.Size;
+                form1sec.Location = new Point(this.Location.X, this.Location.Y);
+                
+                form1sec.Show();
+                this.Hide();
+            }
+            else MessageBox.Show("Kullanıcı adı veya şifre yanlış!", "Dikkat", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+
+
+
     }
 }

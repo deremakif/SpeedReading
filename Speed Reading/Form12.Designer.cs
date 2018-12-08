@@ -104,9 +104,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.ClientSize = new System.Drawing.Size(1284, 661);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form12";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form12";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
