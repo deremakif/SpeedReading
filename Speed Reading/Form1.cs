@@ -37,6 +37,7 @@ namespace Speed_Reading
             this.Hide();
         }
 
+
         private void toolStripMenuItem5_Click(object sender, EventArgs e)
         {
             Form5 form5sec = new Form5();

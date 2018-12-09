@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Speed Reading", "Speed Reading\Speed Reading.csproj", "{ABEAF027-BD8F-4673-A41A-FC092144E163}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{56DFF9C6-CFEE-4EBB-BAEB-A241E92B893E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{ABEAF027-BD8F-4673-A41A-FC092144E163}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABEAF027-BD8F-4673-A41A-FC092144E163}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABEAF027-BD8F-4673-A41A-FC092144E163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56DFF9C6-CFEE-4EBB-BAEB-A241E92B893E}.Debug|Any CPU.ActiveCfg = Debug
+		{56DFF9C6-CFEE-4EBB-BAEB-A241E92B893E}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
