@@ -313,7 +313,7 @@
             // 
             this.Btn_Back.Enabled = false;
             this.Btn_Back.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Back.ImageOptions.Image")));
-            this.Btn_Back.Location = new System.Drawing.Point(251, 554);
+            this.Btn_Back.Location = new System.Drawing.Point(554, 515);
             this.Btn_Back.Name = "Btn_Back";
             this.Btn_Back.Size = new System.Drawing.Size(47, 38);
             this.Btn_Back.TabIndex = 76;
@@ -321,7 +321,7 @@
             // Btn_Next
             // 
             this.Btn_Next.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Next.ImageOptions.Image")));
-            this.Btn_Next.Location = new System.Drawing.Point(386, 554);
+            this.Btn_Next.Location = new System.Drawing.Point(689, 515);
             this.Btn_Next.Name = "Btn_Next";
             this.Btn_Next.Size = new System.Drawing.Size(47, 38);
             this.Btn_Next.TabIndex = 75;
@@ -329,7 +329,7 @@
             // Btn_Pause
             // 
             this.Btn_Pause.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Pause.ImageOptions.Image")));
-            this.Btn_Pause.Location = new System.Drawing.Point(341, 554);
+            this.Btn_Pause.Location = new System.Drawing.Point(644, 515);
             this.Btn_Pause.Name = "Btn_Pause";
             this.Btn_Pause.Size = new System.Drawing.Size(47, 38);
             this.Btn_Pause.TabIndex = 74;
@@ -338,7 +338,7 @@
             // Btn_Play
             // 
             this.Btn_Play.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Play.ImageOptions.Image")));
-            this.Btn_Play.Location = new System.Drawing.Point(296, 554);
+            this.Btn_Play.Location = new System.Drawing.Point(599, 515);
             this.Btn_Play.Name = "Btn_Play";
             this.Btn_Play.Size = new System.Drawing.Size(47, 38);
             this.Btn_Play.TabIndex = 73;

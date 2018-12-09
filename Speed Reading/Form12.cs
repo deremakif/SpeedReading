@@ -39,7 +39,7 @@ namespace Speed_Reading
         */
         //Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename="C:\Users\mehmet akif\Desktop\Speed Reading\SpeedReading\Speed Reading\UsersDB.mdf";Integrated Security=True
 
-            /*
+            
         private void CheckEnter(object sender, System.Windows.Forms.KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)13)
@@ -57,7 +57,7 @@ namespace Speed_Reading
 
             }
         }
-        */
+        
         private void button1_Click(object sender, EventArgs e)
         {            
             if (textBox1.Text=="akif" && textBox2.Text=="abc")
@@ -71,8 +71,20 @@ namespace Speed_Reading
             }
             else MessageBox.Show("Kullanıcı adı veya şifre yanlış!", "Dikkat", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
-        
 
+        private void textBox2_Enter(object sender, EventArgs e)
+        {
+            //CheckEnter(sender, e);
+        }
 
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            CheckEnter(sender, e);
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            CheckEnter(sender, e);
+        }
     }
 }

@@ -46,6 +46,15 @@ namespace Speed_Reading
             form5sec.Show();
             this.Hide();
         }
+        private void toolStripMenuItem6_Click(object sender, EventArgs e)
+        {
+            Form6 form6sec = new Form6();
+            form6sec.Location = new Point(this.Location.X, this.Location.Y);
+            form6sec.Size = this.Size;
+            form6sec.Show();
+            this.Hide();
+        }
+
         private void toolStripMenuItem8_Click(object sender, EventArgs e)
         {
 
@@ -277,6 +286,6 @@ namespace Speed_Reading
             }
         }
 
-        
+       
     }
 }
